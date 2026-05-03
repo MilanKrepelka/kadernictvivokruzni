@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(\\(Get-ChildItem -Path \"c:\\\\Users\\\\Křepelka\\\\ClaudeRepository\\\\kadernictvivokruzni\" -Force | Measure-Object\\).Count)",
+      "PowerShell(\\(Get-ChildItem -Path \"c:\\\\Users\\\\Křepelka\\\\ClaudeRepository\\\\kadernictvivokruzni\" -Force -Recurse | Measure-Object\\).Count)"
+    ]
+  }
+}
