@@ -364,17 +364,14 @@ body {
   height: 100%;
 }
 
-.contact-icon-wrap {
-  width: 56px;
-  height: 56px;
-  background: var(--brand-light);
+.contact-avatar {
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
+  border: 3px solid var(--brand-light);
+  display: block;
   margin: 0 auto 1.25rem;
-  font-size: 1.4rem;
-  color: var(--brand);
 }
 
 .contact-card h5 {
